@@ -1,0 +1,24 @@
+.text {
+    color: rgb(105, 18, 96);
+    text-align: center;
+    padding: 8px;
+    margin: 12px;
+    animation-name: cursomaquillaje;
+    animation-duration: 3s;
+
+}
+
+
+
+@keyframes cursomaquillaje {
+    from {
+
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
