@@ -1,0 +1,12 @@
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px !important;
+    font-size: 12px;
+
+}
+
+.form-select {
+    width: 400px !important;
+}

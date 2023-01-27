@@ -7,7 +7,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css';
 import logo from '../assets/maiVisage.jpg';
-import { CardWiddget } from '../cartWidget.js';
+import { CardWiddget } from '../cartWidget/index.js';
+import select from './select'
+
 
 
 const Navegacion = () => {
@@ -29,19 +31,20 @@ const Navegacion = () => {
             <Nav.Link className='header__text' href="#inicio">Inicio</Nav.Link>
             <Nav.Link className='header__text' href="#clases">Clases</Nav.Link>
             <NavDropdown title="Servicios" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Cejas</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Maquillaje Social</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Another action
+                Maquillaje de Novias
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Something else here
+                Maquillaje Fotográfico
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className='header__text' href="contactanos">
               Contactanos
             </Nav.Link>
           </Nav>
+      <br />
           <Form className="d-flex">
             <Form.Control
               type="search"
