@@ -11,3 +11,10 @@
 .form-select {
     width: 400px !important;
 }
+
+@media (max-width:576px) {
+     .form-select {
+        width: 100%;
+      }
+
+}

@@ -10,6 +10,7 @@ body {
   height: 600px;
   background-size:cover;
   opacity: 0.90;
+
   
 }
 
@@ -25,13 +26,20 @@ body {
 
 }
 
+.banner__ {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+
+}
+
 .banner__img {
 
   -webkit-animation: 3s rotate linear;
   animation: 3s rotate linear ;
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  margin: 10px 20px 200px 450px;
+
   border-radius: 50% ;
   box-shadow: 0px 0px 15px 15px #e5a97e;
   -webkit-box-shadow: 0px 0px 15px 15px #b26c3a;
@@ -122,8 +130,10 @@ body {
     height: 300px;
   }
   .banner__img {
-    margin: 10px 10px 5px 60px;
+    margin: 10px 10px 5px 10px;
     width: 80px;
     height: 100px;
   }
+
+ 
   }

@@ -8,11 +8,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css';
 import logo from '../assets/maiVisage.jpg';
 import { CardWiddget } from '../cartWidget/index.js';
-import select from './select'
 
 
-
-const Navegacion = () => {
+const NavBar = () => {
     return ( 
       <div>
        <header>
@@ -54,7 +52,7 @@ const Navegacion = () => {
             />
             <Button className='header__text' variant="outline-success">Search</Button>
           </Form>
-          <CardWiddget icon='faShoppingCart'></CardWiddget>
+          <CardWiddget></CardWiddget>
           <p className='CartWidget__info'>5</p>
         </Navbar.Collapse>
       </Container>
@@ -66,4 +64,4 @@ const Navegacion = () => {
 
 
 
-export {Navegacion};
+export {NavBar};
