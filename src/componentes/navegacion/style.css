@@ -43,7 +43,7 @@ a {
       position: relative; 
     }
         .header__content-logo img {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             width: 80px;
             border-radius: 1px;
             padding: 0.5px;
@@ -53,6 +53,8 @@ a {
             align-content: center;
             left: 30px;
             bottom: 30px; 
+            border-radius: 10px;
+            
         }
 
     .header__text {
