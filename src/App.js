@@ -4,7 +4,7 @@ import NavBar from './componentes/NavBar';
 import  ItemListContainer from './componentes/ItemListContainer';
 import SelectBasic from './componentes/ItemList';
 import Items from './componentes/ItemList/items';
-import Footer from './componentes/footer';
+/* import Footer from './componentes/footer'; */
 
 
 //opciones del select
@@ -24,7 +24,7 @@ function App() {
            {opciones.map(opcion => (
             <Items key={opcion.id} description = {opcion.description} />))}
           </SelectBasic>
-          <Footer />
+    {/*       <Footer /> */}
     </React.Fragment>
     
   );

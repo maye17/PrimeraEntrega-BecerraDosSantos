@@ -1,5 +1,11 @@
+
+* {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
