@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PrimeraEntrega-BecerraDosSantos/static/css/main.a2aaa68a.css",
+    "main.js": "/PrimeraEntrega-BecerraDosSantos/static/js/main.09aeb397.js",
+    "static/media/maiVisage.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/maiVisage.671577de13ae5b1b335b.jpg",
+    "static/media/1609-maquillaje.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/1609-maquillaje.909ff3619dfaf3592d0e.jpg",
+    "static/media/WhatsApp Image 2023-01-26 at 12.59.30 PM.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/WhatsApp Image 2023-01-26 at 12.59.30 PM.283ef153b7229b49864d.jpg",
+    "static/media/imagen2.jpeg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen2.77b0c6fb3a55f1ebf8b3.jpeg",
+    "index.html": "/PrimeraEntrega-BecerraDosSantos/index.html",
+    "main.a2aaa68a.css.map": "/PrimeraEntrega-BecerraDosSantos/static/css/main.a2aaa68a.css.map",
+    "main.09aeb397.js.map": "/PrimeraEntrega-BecerraDosSantos/static/js/main.09aeb397.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2aaa68a.css",
+    "static/js/main.09aeb397.js"
+  ]
+}
