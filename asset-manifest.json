@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/PrimeraEntrega-BecerraDosSantos/static/css/main.a2aaa68a.css",
-    "main.js": "/PrimeraEntrega-BecerraDosSantos/static/js/main.09aeb397.js",
+    "main.css": "/PrimeraEntrega-BecerraDosSantos/static/css/main.4b8f9168.css",
+    "main.js": "/PrimeraEntrega-BecerraDosSantos/static/js/main.080b29d0.js",
+    "static/media/imagen1.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen1.a44d906f177d98d13e90b292c51ea5cb.svg",
+    "static/media/a8ccs-gcnmr.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/a8ccs-gcnmr.d24bad8cc9b982c1a9b2a271aec2fc51.svg",
     "static/media/maiVisage.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/maiVisage.671577de13ae5b1b335b.jpg",
+    "static/media/imagen2.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen2.71840b0ffd78fed1b1c78c57cb9f765e.svg",
     "static/media/1609-maquillaje.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/1609-maquillaje.909ff3619dfaf3592d0e.jpg",
-    "static/media/WhatsApp Image 2023-01-26 at 12.59.30 PM.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/WhatsApp Image 2023-01-26 at 12.59.30 PM.283ef153b7229b49864d.jpg",
-    "static/media/imagen2.jpeg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen2.77b0c6fb3a55f1ebf8b3.jpeg",
     "index.html": "/PrimeraEntrega-BecerraDosSantos/index.html",
-    "main.a2aaa68a.css.map": "/PrimeraEntrega-BecerraDosSantos/static/css/main.a2aaa68a.css.map",
-    "main.09aeb397.js.map": "/PrimeraEntrega-BecerraDosSantos/static/js/main.09aeb397.js.map"
+    "main.4b8f9168.css.map": "/PrimeraEntrega-BecerraDosSantos/static/css/main.4b8f9168.css.map",
+    "main.080b29d0.js.map": "/PrimeraEntrega-BecerraDosSantos/static/js/main.080b29d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2aaa68a.css",
-    "static/js/main.09aeb397.js"
+    "static/css/main.4b8f9168.css",
+    "static/js/main.080b29d0.js"
   ]
 }
