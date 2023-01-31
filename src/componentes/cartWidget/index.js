@@ -11,4 +11,4 @@ const CardWiddget = () => {
     )
 }
 
-export {CardWiddget};
+export default CardWiddget;

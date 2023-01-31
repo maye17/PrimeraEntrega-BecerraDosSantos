@@ -18,4 +18,4 @@ const {title} = props;
         </div>
     );
 };
-export { ItemListContainer };
+export default ItemListContainer;

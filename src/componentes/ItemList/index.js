@@ -1,14 +1,17 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
-import './style.css'
+import './style.css';
 
-function SelectBasic() {
+
+//recorriendo opciones en el menu de selección
+
+
+function SelectBasic(props) {
   return (
     <div className='select'>
         <Form.Select aria-label="Default select example">
           <option>Selecione una categoría...</option>
-          <option value="1">Cursos</option>
-          <option value="2">Maquillajes</option>
+          {props.children}
         </Form.Select>
     </div>
   );

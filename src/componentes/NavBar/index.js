@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css';
 import logo from '../assets/maiVisage.jpg';
-import { CardWiddget } from '../cartWidget/index.js';
+import CardWiddget  from '../cartWidget/index.js';
 
 
 const NavBar = () => {
@@ -27,7 +27,7 @@ const NavBar = () => {
             navbarScroll
           >
             <Nav.Link className='header__text' href="#inicio">Inicio</Nav.Link>
-            <Nav.Link className='header__text' href="#clases">Clases</Nav.Link>
+            <Nav.Link className='header__text' href="#clases">Cursos</Nav.Link>
             <NavDropdown title="Servicios" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Maquillaje Social</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
@@ -38,7 +38,7 @@ const NavBar = () => {
                 Maquillaje Fotográfico
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='header__text' href="contactanos">
+            <Nav.Link className='header__text' href="../contactos/index.js">
               Contactanos
             </Nav.Link>
           </Nav>
@@ -64,4 +64,4 @@ const NavBar = () => {
 
 
 
-export {NavBar};
+export default NavBar;
