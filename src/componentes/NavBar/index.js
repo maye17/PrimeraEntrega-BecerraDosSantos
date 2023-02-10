@@ -17,9 +17,11 @@ const NavBar = () => {
        <header>
        <Navbar className='header' bg="light" expand="lg">
       <Container fluid>
+        <LinkContainer  to='/PrimeraEntrega-BecerraDosSantos'>
         <Navbar.Brand className="header__content-logo" href="#">
           <img src={logo}/>
         </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -27,7 +29,7 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <LinkContainer to='/'>
+            <LinkContainer to='/PrimeraEntrega-BecerraDosSantos'>
               <Nav.Link className='header__text Link'>Inicio</Nav.Link>
             </LinkContainer> 
             <LinkContainer to='/Curso'>
