@@ -50,6 +50,7 @@ body {
   padding: 20px;
   font-family: 'Dosis', sans-serif;
   font-family: 'Quicksand', sans-serif;
+  
 
 }
 
@@ -108,5 +109,19 @@ body {
     height: 100px;
   }
 
+  .card-img {
+ 
+    height: 12rem;
+    width: 12rem;
+    border-radius: 12px;
+    opacity: 0.89;
+  
+  }
+
+  .section__about {
+    width: 80%;
+  }
+
+  
  
   }

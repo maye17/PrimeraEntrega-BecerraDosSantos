@@ -4,7 +4,7 @@ import './App.css';
 
 //componentes
 import NavBar from './componentes/NavBar';
-/* import Footer from './componentes/footer'; */
+import Footer from './componentes/footer';
 //paginas
 import Home  from './pages/Home';
 import Curso from './pages/Curso/Curso'
@@ -24,6 +24,7 @@ function App() {
          <Route path='/Curso' element={<Curso/>} />
          <Route path='/Contact' element={<Contact/>}/>
        </Routes>
+       <Footer />
        </div>
     </Router>
     
