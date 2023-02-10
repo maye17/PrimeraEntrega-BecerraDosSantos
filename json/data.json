@@ -2,56 +2,56 @@
 {
     "id":1,
     "name":"Aprende a Maquillarte de 0 a 100",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/maquillaje_novia.jpg",
     "precio":110,
     "description":"Aprende a Maquillarte de 0 a 100"
  },
  {
     "id":2,
     "name":"Master en colorimetría",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":190,
     "description":"Master en colorimetría"
  },
  {
     "id":3,
     "name":"Master en Novias",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":370,
     "description":"Master en Novias"
  },
  {
     "id":4,
     "name":"Experto en Piel Madura",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":170,
     "description":"Experto en Piel Madura"
  },
  {
     "id":5,
     "name":"Combo 1",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":120,
     "description":"Maquillaje de ojos para 4 tipos de párpados"
  },
  {
     "id":6,
     "name":"Maquillaje de párpados encapotados",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":40,
     "description":"Maquillaje de ojos para párpados encapotados"
  },
  {
     "id":7,
     "name":"Maquillaje párpados pequeños",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":40,
     "description":"Maquillaje párpados pequeños"
  },
  {
     "id":8,
     "name":"Maquillaje párpados profundos",
-    "image":"../image/colorimetria.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "precio":40,
     "description":"Maquillaje párpados profundos"
  }
