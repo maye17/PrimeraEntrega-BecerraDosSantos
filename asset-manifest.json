@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PrimeraEntrega-BecerraDosSantos/static/css/main.4b8f9168.css",
-    "main.js": "/PrimeraEntrega-BecerraDosSantos/static/js/main.4ba0bee7.js",
-    "static/media/imagen1.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen1.a44d906f177d98d13e90b292c51ea5cb.svg",
-    "static/media/a8ccs-gcnmr.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/a8ccs-gcnmr.d24bad8cc9b982c1a9b2a271aec2fc51.svg",
+    "main.css": "/PrimeraEntrega-BecerraDosSantos/static/css/main.0ad95712.css",
+    "main.js": "/PrimeraEntrega-BecerraDosSantos/static/js/main.b88c109a.js",
+    "static/media/imagen1.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen1.a87e51acddb06abc71a8b3d4825f0cdb.svg",
+    "static/media/a8ccs-gcnmr.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/a8ccs-gcnmr.1036c7fba43a95204a9a8b78a3062f52.svg",
     "static/media/maiVisage.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/maiVisage.671577de13ae5b1b335b.jpg",
-    "static/media/imagen2.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen2.71840b0ffd78fed1b1c78c57cb9f765e.svg",
+    "static/media/imagen2.svg": "/PrimeraEntrega-BecerraDosSantos/static/media/imagen2.35d08fcbfafcc8dea5df75676855593b.svg",
     "static/media/1609-maquillaje.jpg": "/PrimeraEntrega-BecerraDosSantos/static/media/1609-maquillaje.909ff3619dfaf3592d0e.jpg",
     "index.html": "/PrimeraEntrega-BecerraDosSantos/index.html",
-    "main.4b8f9168.css.map": "/PrimeraEntrega-BecerraDosSantos/static/css/main.4b8f9168.css.map",
-    "main.4ba0bee7.js.map": "/PrimeraEntrega-BecerraDosSantos/static/js/main.4ba0bee7.js.map"
+    "main.0ad95712.css.map": "/PrimeraEntrega-BecerraDosSantos/static/css/main.0ad95712.css.map",
+    "main.b88c109a.js.map": "/PrimeraEntrega-BecerraDosSantos/static/js/main.b88c109a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b8f9168.css",
-    "static/js/main.4ba0bee7.js"
+    "static/css/main.0ad95712.css",
+    "static/js/main.b88c109a.js"
   ]
 }
