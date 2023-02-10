@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
+import {LinkContainer} from 'react-router-bootstrap'
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css';
@@ -26,21 +27,34 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='header__text' href="#inicio">Inicio</Nav.Link>
-            <Nav.Link className='header__text' href="#clases">Cursos</Nav.Link>
+            <LinkContainer to='/'>
+              <Nav.Link className='header__text Link'>Inicio</Nav.Link>
+            </LinkContainer> 
+            <LinkContainer to='/Curso'>
+              <Nav.Link className='header__text Link'to='/Curso'>Cursos</Nav.Link>
+            </LinkContainer>
             <NavDropdown title="Servicios" id="navbarScrollingDropdown">
+            <LinkContainer  to='/SocialMakeup'>
               <NavDropdown.Item href="#action3">Maquillaje Social</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to='/BridesMakeup'>
               <NavDropdown.Item href="#action4">
                 Maquillaje de Novias
               </NavDropdown.Item>
+            </LinkContainer>
               <NavDropdown.Divider />
+              <LinkContainer to='./PhotographyMakeup'>
               <NavDropdown.Item href="#action5">
                 Maquillaje Fotográfico
               </NavDropdown.Item>
+              </LinkContainer>
             </NavDropdown>
-            <Nav.Link className='header__text' href="../contactos/index.js">
-              Contactanos
-            </Nav.Link>
+            <LinkContainer  to='/Contact'>
+              <Nav.Link className='header__text' href="../contactos/index.js">
+                Contactanos
+              </Nav.Link>
+            </LinkContainer>
+
           </Nav>
       <br />
           <Form className="d-flex">

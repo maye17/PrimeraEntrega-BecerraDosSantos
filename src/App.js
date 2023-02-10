@@ -1,31 +1,31 @@
 import React from 'react';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
+
+//componentes
 import NavBar from './componentes/NavBar';
-import  ItemListContainer from './componentes/ItemListContainer';
-import SelectBasic from './componentes/ItemList';
-import Items from './componentes/ItemList/items';
 /* import Footer from './componentes/footer'; */
+//paginas
+import Home  from './pages/Home';
+import Curso from './pages/Curso/Curso'
+import Contact from './pages/Contact/Contact'
 
 
-//opciones del select
-const opciones = [
-  {id: 1, name:'curso', description:'Cursos'},
-  {id:2, name:'maquillaje', description:'Maquillajes'},
-  {id:3, name:'cosmeticos', description:'Cosmeticos'}
-];
+
 
 
 function App() {
   return (
-    <React.Fragment>
+    <Router>
+      <div className='App'>
        <NavBar />
-       <ItemListContainer title = {"Bienvenido a MaiVisage"} />   
-         <SelectBasic>
-           {opciones.map(opcion => (
-            <Items key={opcion.id} description = {opcion.description} />))}
-          </SelectBasic>
-    {/*       <Footer /> */}
-    </React.Fragment>
+       <Routes>
+         <Route path='/' element={<Home/>} />
+         <Route path='/Curso' element={<Curso/>} />
+         <Route path='/Contact' element={<Contact/>}/>
+       </Routes>
+       </div>
+    </Router>
     
   );
 }

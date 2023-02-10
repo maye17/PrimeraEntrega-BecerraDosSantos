@@ -1,0 +1,136 @@
+.banner {
+    background-image: url(../assets/1609-maquillaje.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size:cover;
+    opacity: 0.90;
+  
+    
+  }
+  
+  .text {
+  
+    
+      color: rgb(91, 6, 81);
+      text-align: center;
+      padding: 8px;
+      margin: 0 12px 0;
+      animation-name: cursomaquillaje;
+      animation-duration: 3s;
+  
+  }
+  
+  .banner__ {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  
+  }
+  
+  .banner__img {
+  
+    -webkit-animation: 3s rotate linear;
+    animation: 3s rotate linear ;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  
+    border-radius: 50% ;
+    box-shadow: 0px 0px 15px 15px #e5a97e;
+    -webkit-box-shadow: 0px 0px 15px 15px #b26c3a;
+    width: 200px;
+    height: 300px;
+  }
+  /* #e5a97e;#b26c3a; #d7b3c4 #762859 para el hover #ec731e;fb32d6 */
+  
+  
+  .banner__img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
+  
+    .right {
+  
+      -webkit-animation: 3s rotate linear;
+      animation: 3s rotate linear ;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      display: flex;
+      flex-flow:  row wrap;
+      align-items:flex-end;
+      justify-content: flex-end;
+      margin: 10px 250px 800px 10px;
+      border-radius: 50% ;
+      box-shadow: 0px 0px 15px 15px #b26c3a;
+      -webkit-box-shadow: 0px 0px 15px 15px #e5a97e;
+      width: 200px;
+      height: 300px;
+  
+    }
+  
+  
+  
+  @keyframes cursomaquillaje {
+      from {
+  
+          margin-top: 100%;
+          width: 300%
+          
+        }
+      
+        to {
+          margin-top: 0%;
+          width: 100%;
+          
+        }
+      }
+  
+      /* rotando imagenes */
+  
+      @keyframes rotate {from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}}
+  @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}}
+  
+  
+/* medias queries */
+
+@media (max-width: 992px) { 
+
+    .banner__img {
+      margin: 10px 20px 50px 150px;
+    }
+   }
+  
+   @media (max-width: 768px) { 
+    .banner {
+      height: 500px;
+    }
+    .banner__img {
+      margin: 10px 80px 35px 60px;
+      width: 150px;
+      height: 220px;
+    }
+    }
+  
+  
+  
+  
+  
+   @media (max-width: 576px) { 
+  
+    .banner {
+      height: 300px;
+    }
+    .banner__img {
+      margin: 10px 10px 5px 10px;
+      width: 80px;
+      height: 100px;
+    }
+  
+   
+    }
