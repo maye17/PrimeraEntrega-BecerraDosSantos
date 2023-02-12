@@ -1,58 +1,58 @@
 [
 {
     "id":1,
-    "name":"Aprende a Maquillarte de 0 a 100",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/maquillaje_novia.jpg",
-    "precio":110,
-    "description":"Aprende a Maquillarte de 0 a 100"
+    "name":"AutoMaquillaje",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/AutoMaquillaje.jpg",
+    "price":50,
+    "description":"Conocimientos básicos de skincare"
  },
  {
     "id":2,
     "name":"Master en colorimetría",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":190,
+    "price":190,
     "description":"Master en colorimetría"
  },
  {
     "id":3,
     "name":"Master en Novias",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":370,
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/maquillaje_novia.jpg",
+    "price":370,
     "description":"Master en Novias"
  },
  {
     "id":4,
     "name":"Experto en Piel Madura",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":170,
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/maquillajePielMadura.jpg",
+    "price":170,
     "description":"Experto en Piel Madura"
  },
  {
     "id":5,
-    "name":"Combo 1",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":120,
-    "description":"Maquillaje de ojos para 4 tipos de párpados"
+    "name":"Maquillaje Profesional Nivel 1",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/MaquillajeNivel1.jpg",
+    "price":40,
+    "description":"Conocimientos de SkinCare"
  },
  {
     "id":6,
-    "name":"Maquillaje de párpados encapotados",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":40,
-    "description":"Maquillaje de ojos para párpados encapotados"
+    "name":"Maquillaje Profesional Nivel 2",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/MaquillajeNivel2.jpg",
+    "price":40,
+    "description":"Conocimientos de SkinCare"
  },
  {
     "id":7,
     "name":"Maquillaje párpados pequeños",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":40,
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/parpados.jpg",
+    "price":40,
     "description":"Maquillaje párpados pequeños"
  },
  {
     "id":8,
-    "name":"Maquillaje párpados profundos",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
-    "precio":40,
-    "description":"Maquillaje párpados profundos"
+    "name":"Maquillaje para fotografía",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/MaquillajeFotografia.jpg",
+    "price":40,
+    "description":"Maquillaje para sesión de fotos"
  }
 ]

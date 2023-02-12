@@ -5,7 +5,7 @@ import imagen3 from '../assets/a8ccs-gcnmr.svg';
 const AboutMe =()=> {
 
     return (
-        <div className='section'>
+        <section className='section'>
             <div className='section__about'>
                 <div className='section-card'>
                     <h2>Sobre Mi</h2>
@@ -22,7 +22,7 @@ const AboutMe =()=> {
                     
                 </div>
             </div>        
-        </div>
+        </section>
 
     )
 }

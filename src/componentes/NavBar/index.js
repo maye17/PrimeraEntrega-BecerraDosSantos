@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import {LinkContainer} from 'react-router-bootstrap'
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+/* import NavDropdown from 'react-bootstrap/NavDropdown'; */
 import './style.css';
 import logo from '../assets/maiVisage.jpg';
 import CardWiddget  from '../cartWidget/index.js';
@@ -35,7 +35,7 @@ const NavBar = () => {
             <LinkContainer to='/Curso'>
               <Nav.Link className='header__text Link'to='/Curso'>Cursos</Nav.Link>
             </LinkContainer>
-            <NavDropdown title="Servicios" id="navbarScrollingDropdown">
+            {/* <NavDropdown title="Servicios" id="navbarScrollingDropdown">
             <LinkContainer  to='/SocialMakeup'>
               <NavDropdown.Item href="#action3">Maquillaje Social</NavDropdown.Item>
             </LinkContainer>
@@ -50,13 +50,17 @@ const NavBar = () => {
                 Maquillaje Fotográfico
               </NavDropdown.Item>
               </LinkContainer>
-            </NavDropdown>
+            </NavDropdown> */}
+            <LinkContainer to='/Servicios'> 
+              <Nav.Link className='header__text Link'to='/Servicios'>
+                Servicios
+              </Nav.Link>
+            </LinkContainer>
             <LinkContainer  to='/Contact'>
-              <Nav.Link className='header__text' href="../contactos/index.js">
+              <Nav.Link className='header__text Link' to='/Contact'>
                 Contactanos
               </Nav.Link>
             </LinkContainer>
-
           </Nav>
       <br />
           <Form className="d-flex">

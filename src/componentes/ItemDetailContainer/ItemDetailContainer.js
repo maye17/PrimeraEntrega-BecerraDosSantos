@@ -1,6 +1,6 @@
 import React , {useEffect,useState} from 'react'
-import ItemDetail from '../ItemDetail/ItemDetail'
 import './ItemDetailContainer.css'
+import ItemDetail from '../ItemDetail/ItemCard';
 
 const ItemDetailContainer =()=>{
     const [data,setData] = useState([]);
@@ -23,6 +23,7 @@ const ItemDetailContainer =()=>{
 
     return (
         <>
+        <h1>Cursos</h1>
         <div className='cards'>
         <div className='card-list'>
             {data.map((dato)=> {

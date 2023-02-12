@@ -3,6 +3,7 @@ import SelectBasic from '../ItemList/index'
 import Items from '../ItemList/items';
 import AboutMe  from '../AboutMe/AboutMe';
 import Banner from '../Banner/Banner';
+import CarouselControl from '../CarouselControl/index';
 
 
 
@@ -19,7 +20,8 @@ const ItemListContainer  = () => {
     return (
         <div>
          <Banner title = {"Bienvenido a MaiVisage"}/>
-        <AboutMe />  
+        <AboutMe />
+        <CarouselControl />  
          <SelectBasic>
            {opciones.map(opcion => (
             <Items key={opcion.id} description = {opcion.description} />))}
