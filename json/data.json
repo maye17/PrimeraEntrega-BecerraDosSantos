@@ -2,7 +2,7 @@
 {
     "id":1,
     "name":"AutoMaquillaje",
-    "image":"../PrimeraEntrega-BecerraDosSantos/image/AutoMaquillaje.jpg",
+    "image":"../image/AutoMaquillaje.jpg",
     "price":50,
     "description":"Conocimientos básicos de skincare"
  },
