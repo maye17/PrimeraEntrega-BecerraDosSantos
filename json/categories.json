@@ -1,0 +1,17 @@
+[
+    {
+       "id":1,
+       "name":"Maquillaje",
+       "description":"Maquillaje"
+    },
+    {
+       "id":2,
+       "name":"Master",
+       "description":"Master"
+    },
+    {
+       "id":3,
+       "name":"AutoMaquillaje",
+       "description":"AutoMaquillaje"
+    }
+ ]

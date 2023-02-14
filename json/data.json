@@ -2,57 +2,65 @@
 {
     "id":1,
     "name":"AutoMaquillaje",
-    "image":"../image/AutoMaquillaje.jpg",
+    "image":"../PrimeraEntrega-BecerraDosSantos/image/AutoMaquillaje.jpg",
     "price":50,
-    "description":"Conocimientos básicos de skincare"
+    "description":"Conocimientos básicos de skincare",
+    "categoria":"Maquillaje"
  },
  {
     "id":2,
     "name":"Master en colorimetría",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/colorimetria.jpg",
     "price":190,
-    "description":"Master en colorimetría"
+    "description":"Master en colorimetría",
+    "categoria":"Maquillaje"
  },
  {
     "id":3,
     "name":"Master en Novias",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/maquillaje_novia.jpg",
     "price":370,
-    "description":"Master en Novias"
+    "description":"Master en Novias",
+    "categories":"Master"
  },
  {
     "id":4,
     "name":"Experto en Piel Madura",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/maquillajePielMadura.jpg",
     "price":170,
-    "description":"Experto en Piel Madura"
+    "description":"Experto en Piel Madura",
+    "categoria":"Master"
  },
  {
     "id":5,
     "name":"Maquillaje Profesional Nivel 1",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/MaquillajeNivel1.jpg",
     "price":40,
-    "description":"Conocimientos de SkinCare"
+    "description":"Conocimientos de SkinCare",
+    "categoria":"Master"
  },
  {
     "id":6,
     "name":"Maquillaje Profesional Nivel 2",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/MaquillajeNivel2.jpg",
     "price":40,
-    "description":"Conocimientos de SkinCare"
+    "description":"Conocimientos de SkinCare",
+    "categoria":"Master"
  },
  {
     "id":7,
     "name":"Maquillaje párpados pequeños",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/parpados.jpg",
     "price":40,
-    "description":"Maquillaje párpados pequeños"
+    "description":"Maquillaje párpados pequeños",
+    "categoria":"Maquillaje"
  },
  {
     "id":8,
     "name":"Maquillaje para fotografía",
     "image":"../PrimeraEntrega-BecerraDosSantos/image/MaquillajeFotografia.jpg",
     "price":40,
-    "description":"Maquillaje para sesión de fotos"
+    "description":"Maquillaje para sesión de fotos",
+    "categoria":"Maquillaje"
  }
 ]
