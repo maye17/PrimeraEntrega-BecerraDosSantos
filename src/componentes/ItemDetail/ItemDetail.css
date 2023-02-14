@@ -44,7 +44,7 @@
         padding: 4px;
         font-size: 16x; 
     }
-      .cards__container-banner a {
+      .cards__container-banner button {
         color: #e7e7fa;
         display: inline-block;
         margin: 18px;
@@ -58,7 +58,7 @@
         font-family: 'Nunito Sans', sans-serif;
         font-style: oblique;
         font-weight: bold; }
-        .cards__container-banner a:hover {
+        .cards__container-banner button:hover {
           color: #2d0223;
           background: white;
           border-color: #f106a2; }

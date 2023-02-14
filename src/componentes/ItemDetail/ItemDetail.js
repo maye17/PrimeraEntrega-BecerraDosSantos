@@ -14,7 +14,7 @@ const ItemDetail = ({data})=> {
                   <h2>{data.name}</h2>
                   <p>{data.description}</p>
                   <p>{prince_sign} {data.price}</p>
-                  <a href="">Saber más</a>
+                  <button>Saber más</button>
                 </article>
               </div>
             </section>
