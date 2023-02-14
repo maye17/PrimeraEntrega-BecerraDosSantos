@@ -9,11 +9,12 @@ const ItemDetail = ({data})=> {
              <section className="cards">
               <div className="cards__container">
                 <article className="cards__container-banner">
+                <p>{data.categoria}</p>
                   <img src={data.image}/>
                   <h2>{data.name}</h2>
                   <p>{data.description}</p>
                   <p>{prince_sign} {data.price}</p>
-                  <a href="./pages/servicios.html">Saber más</a>
+                  <a href="">Saber más</a>
                 </article>
               </div>
             </section>

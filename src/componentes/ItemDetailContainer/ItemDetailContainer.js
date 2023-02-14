@@ -1,6 +1,6 @@
 import React , {useEffect,useState} from 'react'
 import './ItemDetailContainer.css'
-import ItemDetail from '../ItemDetail/ItemCard';
+import ItemDetail from '../ItemDetail/ItemDetail';
 
 const ItemDetailContainer =()=>{
     const [data,setData] = useState([]);
@@ -28,7 +28,7 @@ const ItemDetailContainer =()=>{
         <div className='card-list'>
             {data.map((dato)=> {
                 return(
-                    <ItemDetail data={dato} key={dato.id}/>
+                    <ItemDetail data = {dato} key={dato.id}/>
                 )
             })}
 

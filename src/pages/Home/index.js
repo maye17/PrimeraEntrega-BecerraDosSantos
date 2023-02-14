@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemListContainer from '../../componentes/ItemListContainer/index';
+import Principal from '../../componentes/Principal';
 
 
 
@@ -7,7 +7,7 @@ import ItemListContainer from '../../componentes/ItemListContainer/index';
 const Home =()=> {
     return (
         <div className='Home'>
-          <ItemListContainer />
+          <Principal />
         </div>
     );
 };

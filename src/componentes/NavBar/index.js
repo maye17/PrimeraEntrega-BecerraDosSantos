@@ -35,25 +35,14 @@ const NavBar = () => {
             <LinkContainer to='/Curso'>
               <Nav.Link className='header__text Link'to='/Curso'>Cursos</Nav.Link>
             </LinkContainer>
-            {/* <NavDropdown title="Servicios" id="navbarScrollingDropdown">
-            <LinkContainer  to='/SocialMakeup'>
-              <NavDropdown.Item href="#action3">Maquillaje Social</NavDropdown.Item>
-            </LinkContainer>
-            <LinkContainer to='/BridesMakeup'>
-              <NavDropdown.Item href="#action4">
-                Maquillaje de Novias
-              </NavDropdown.Item>
-            </LinkContainer>
-              <NavDropdown.Divider />
-              <LinkContainer to='./PhotographyMakeup'>
-              <NavDropdown.Item href="#action5">
-                Maquillaje Fotográfico
-              </NavDropdown.Item>
-              </LinkContainer>
-            </NavDropdown> */}
             <LinkContainer to='/Servicios'> 
               <Nav.Link className='header__text Link'to='/Servicios'>
                 Servicios
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/Cosmeticos'> 
+              <Nav.Link className='header__text Link'to='/Cosmeticos'>
+                Indumentaria
               </Nav.Link>
             </LinkContainer>
             <LinkContainer  to='/Contact'>
